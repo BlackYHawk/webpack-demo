@@ -1,0 +1,19 @@
+<label value="focus获取焦点" class="title1 l22"/>
+<vpanel class="d11">
+	<input  tip="default" id="input1" />
+</vpanel>
+
+<label value="blur失去焦点" class="title1 l22"/>
+<vpanel class="d11">
+	<input  tip="default" id="input2" />
+</vpanel>
+
+<label value="textchange文本变化" class="title1 l22"/>
+<vpanel class="d11">
+	<input  tip="default" id="input3" />
+</vpanel>
+
+<label value="disable禁用" class="title1 l22"/>
+<vpanel class="d11">
+	<input  tip="default" id="input4" disable="true" />
+</vpanel>

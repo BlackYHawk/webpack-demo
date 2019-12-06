@@ -1,0 +1,22 @@
+<tml>
+	<head>
+
+	</head>
+	<body>
+	   <vbox>
+		    <hpanel class="head">
+		    	<label value="&lt;input&gt;" class="headTitle" />
+		    	<button value="back" class="topBack" onclick="back()" />
+		    </hpanel>
+			<div class="content" id="app">
+				 <label value="键盘类型" class="title1" />
+		        <vpanel class="d11">
+		        	<input  tip="default" />
+				    <input  tip="数字带小数" type= "digital" />
+				    <input  tip="数字不带小数" type= "number" />
+				    <input  tip="密码键盘" type= "password" />
+		        </vpanel>
+	        </div>
+        </vbox>
+	</body>
+</tml>

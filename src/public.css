@@ -1,0 +1,929 @@
+/** 马来西亚AFFIN项目公共样式表文档 **/
+/** 本文档预先定义了一组常用样式，方便进行页面开发 **/
+/** 本文档在新建页面文档时会自动引入 **/
+
+/** 测试边框 **/
+.t_border {
+    border-color: #ff0000;
+    border-width: 1;
+}
+.t_border1 {
+    border-color: #AB82FF;
+    border-width: 3;
+}
+
+.t_border2 {
+    border-color: #0000CD;
+    border-width: 1;
+}
+
+
+/* 页面底色 */
+body {
+    background-color: #ffffff;
+    font-size: 14;
+    color: #666666;
+    width: 100%;
+}
+
+/*1 标题栏  头部高度*/
+.header {
+    margin: 25 0 0 0;
+    height: 60;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.header1 {
+    height: 60;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    top: 25;
+}
+
+.PINHeight {
+    height: 40%;
+}
+
+.text1 {
+    position: relative;
+    bottom: 0;
+}
+
+/*3 标题栏标题文本 */
+.title {
+	color:#D4D4D4;
+	font-size:21;
+    height:37;
+	font-family:SukhumvitSet-Bold;
+	align:center;
+	vertical-align:middle;
+}
+
+.hp_ab {
+    position: relative;
+    top: 13;
+    right: 0;
+}
+
+.height50 {
+    height: 70;
+}
+
+.marginL10 {
+    margin: 0 0 0 7;
+}
+
+/*底部盒子外壳*/
+.bothight {
+    height: 128;
+}
+
+.button_blue {
+    margin: 17 0 37 0;
+    border-radius: 26.5;
+    align: center;
+    width: 77%;
+    height: 53;
+    background-color: #4C6E87;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 19;
+    font-family: SukhumvitSet-Bold;
+}
+
+.marginT17B37 {
+    margin: 0 0 37 0;
+}
+
+.button_blue_listener {
+    border-radius: 26.5;
+    align: center;
+    width: 77%;
+    height: 53;
+    background-color: #e7e7e7;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 19;
+    font-family: SukhumvitSet-Bold;
+}
+
+.button_white {
+    margin: 0 0 37 0;
+    border-radius: 26.5;
+    align: center;
+    width: 77%;
+    height: 53;
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #4C6E87;
+    font-size: 19;
+    font-family: SukhumvitSet-Bold;
+}
+
+.button_blue_w86 {
+    margin: 36 0 47 0;
+    border-radius: 26.5;
+    align: center;
+    width: 86%;
+    height: 53;
+    background-color: #4C6E87;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 19;
+    font-family: SukhumvitSet-Bold;
+}
+
+
+/*input 公共样式 100宽*/
+.input_common_w100 {
+    color: #223b5b;
+    font-size: 17;
+    height: 50;
+    width: 100%;
+    border-color: #e4e8ed;
+    border-width: 0 0 0.5 0;
+}
+
+/*input 公共样式 85宽无下划线(给右侧有图片，需要进行盒子包裹的输入框或label使用)*/
+.input_common_w85_noline {
+    color: #223b5b;
+    font-size: 17;
+    height: 50;
+    width: 85%;
+    border-color: #e4e8ed;
+}
+
+/*input前面有固定值的时候，输入框宽度不给100%，前面给15%后面85%*/
+.input_common_w85_siren {
+    color: #223b5b;
+    font-size: 17;
+    height: 50;
+    width: 85%;
+    vertical-align: middle;
+}
+
+/*input 公共样式 100宽 不带底部边线*/
+.input_common_w100_noline {
+    color: #223b5b;
+    font-size: 17;
+    height: 50;
+    width: 100%;
+}
+
+.bothight {
+    height: 128;
+}
+
+.imgcss2 {
+    width: 26;
+    height: 25;
+}
+
+.imgcss3 {
+    color: #223b5b;
+    margin: 0 0 0 17;
+    vertical-align: middle;
+    line-height: 10;
+    width: 85%;
+}
+
+.input_right {
+    font-size: 17;
+    height: 20;
+    width: 100%;
+}
+
+/*宽85的label*/
+.input_right_w85 {
+    font-size: 17;
+    height: 20;
+    width: 85%;
+}
+
+.selecs {
+    height: 100%;
+    width: 50;
+    position: relative;
+    right: 0;
+
+}
+
+/*2 页边距 */
+.edge_distance {
+    padding: 0 22;
+}
+
+.marginL22 {
+    margin: 0 0 0 22;
+}
+
+.marginR22 {
+    margin: 0 22 0 0;
+}
+
+/* 5行间距 */
+.margin16 {
+    margin: 16 0 0 0;
+}
+
+.margin30 {
+    margin: 30 0 0 0;
+}
+
+.marginput2 {
+    margin: 15 0 9 0;
+}
+
+.marginput {
+    margin: 16 0 14 0;
+}
+
+.margin32 {
+    margin: 32 0 0 0;
+}
+
+.marginR20 {
+    margin: 0 20 0 0;
+}
+
+.marginTop5 {
+    margin: 5 0 0 0;
+}
+
+.marginTop10 {
+    margin: 10 0 0 0;
+}
+
+/*7分割线颜色宽度*/
+.body_line {
+    border-color: #e4e8ed;
+    border-width: 0 0 0.5 0;
+}
+
+/*6 行高 */
+.lineHeight {
+    height: 12;
+}
+
+/* vbox默认大小 */
+vbox {
+    width: 100%;
+    height: 100%;
+}
+
+/* 返回按钮(需要本地存在back.png图片) */
+.back {
+    height: 42;
+    width: 53;
+    vertical-align: middle;
+}
+
+.back_img {
+    margin: 0 0 0 22;
+    height: 15;
+    width: 17;
+    vertical-align: middle;
+}
+
+.bg_img {
+    margin: 0 24 0 0;
+    height: 17;
+    align: right;
+    vertical-align: bottom;
+}
+
+/* 白色背景色 */
+.bg_white {
+    background-color: #ffffff;
+}
+
+/* 浅黑字体颜色 */
+.fc_black {
+    color: #44515B;
+}
+
+.fc_plum_purpple {
+    color: #A13F78;
+}
+
+/* 深灰字体颜色 */
+.fc_h_gray {
+    color: #666666;
+}
+
+.schcolor {
+    color: #e4e8ed;
+}
+
+/* 浅灰字体颜色 */
+.fc_gray {
+    color: #A2B0BD;
+}
+
+.fc_gray06 {
+    color: #90979D;
+}
+
+.fc_gray08 {
+    color: #69747C;
+}
+
+.mast {
+    color: #75101c;
+}
+
+/* 白色字体颜色 */
+.fc_white {
+    color: #ffffff;
+}
+
+.fc_red {
+    color: #FF3737;
+}
+
+.fc_pink {
+    color: #a4467d;
+}
+
+.fc_green {
+    color: #92bc88;
+}
+
+.fc_label {
+    color: #9AAAB7;
+}
+
+.fc_input {
+    color: #44515B;
+}
+
+.tipColor {
+    tipColor: #A2B0BD;
+}
+
+.tipColor2 {
+    tipColor: #beccd7;
+}
+
+.gread {
+    color: #68ac20;
+}
+
+.schedule {
+    height: 50;
+}
+
+.schedule_img {
+    height: 27;
+}
+
+.scimg {
+    height: 25;
+    background-color: #ffffff;
+    vertical-align: middle;
+}
+
+.scimg1 {
+    height: 25;
+    background-color: #ffffff;
+    position: relative;
+    left: -12.5;
+    visibility: hidden;
+}
+
+.scimg2 {
+    width: 25;
+    background-color: #ffffff;
+    position: relative;
+    right: -12.5;
+    visibility: hidden;
+}
+
+.scimg3 {
+    height: 25;
+    background-color: #ffffff;
+    position: relative;
+    left: 0;
+    visibility: hidden;
+}
+
+.scimg4 {
+    height: 25;
+    background-color: #ffffff;
+    position: relative;
+    right: 0;
+    visibility: hidden;
+}
+
+.scheimg {
+    top: 11;
+    position: relative;
+    width: 100%;
+    height: 1;
+    border-color: #BECCD7;
+    border-width: 0.5 0 0 0;
+}
+
+.roundimgR {
+    right: 0;
+    top: 9;
+    position: relative;
+    border-radius: 2.5;
+    /*  background-image:url(img/signUp/12.png);*/
+    width: 5;
+    height: 5;
+    background-color: #A4467C;
+}
+
+.roundimgL {
+    left: 0;
+    top: 9;
+    position: relative;
+    border-radius: 2.5;
+    /*  background-image:url(img/signUp/12.png);*/
+    width: 5;
+    height: 5;
+    background-color: #A4467C;
+}
+
+.scheimg_red {
+    top: 9;
+    position: relative;
+    width: 100%;
+    height: 0.5;
+    border-color: #75101c;
+    border-width: 0.5 0 0 0;
+}
+
+/*加粗*/
+.fs_bold {
+    font-style: bold;
+}
+
+/*已加粗字体*/
+.Poetr {
+    font-family: SukhumvitSet-Bold;
+}
+
+.Thonburi_Bold {
+    font-family: SukhumvitSet-Bold;
+}
+
+/*正常字体*/
+.Poet {
+    font-family: SukhumvitSet-Medium;
+}
+
+.PoLight {
+    font-family: SukhumvitSet-Medium;
+}
+
+.PingFang_Me {
+    font-family: SukhumvitSet-Medium;
+}
+
+/*文字自适应*/
+.fs_fit {
+    font-fit: fit;
+}
+
+/* 文本居中 */
+.text_center {
+    text-align: center;
+}
+
+/* 文本居右 */
+.text_right {
+    text-align: right;
+}
+
+/* 文本居左 */
+.text_left {
+    text-align: left;
+}
+
+/*字号*/
+.fs_27 {
+    font-size: 27;
+}
+
+.fs_20 {
+    font-size: 20;
+}
+
+.fs_24 {
+    font-size: 24;
+}
+
+.fs_23 {
+    font-size: 23;
+}
+
+.fs_22 {
+    font-size: 22;
+}
+
+.fs_21 {
+    font-size: 21;
+}
+
+.fs_30 {
+    font-size: 30;
+}
+
+.fs_19 {
+    font-size: 19;
+}
+
+.fs_18 {
+    font-size: 18;
+}
+
+.fs_17 {
+    font-size: 17;
+}
+
+.fs_16 {
+    font-size: 16;
+}
+
+.fs_15 {
+    font-size: 15;
+}
+
+.fs_14 {
+    font-size: 14;
+}
+
+.fs_13 {
+    font-size: 13;
+}
+
+.fs_12 {
+    font-size: 12;
+}
+
+.fs_11 {
+    font-size: 11;
+}
+
+.fs_10 {
+    font-size: 10;
+}
+
+/*100%宽度*/
+.w100 {
+    width: 100%;
+}
+
+/*90%宽度*/
+.w90 {
+    width: 90%;
+}
+
+/*80%宽度*/
+.w80 {
+    width: 80%;
+}
+
+/*70%宽度*/
+.w70 {
+    width: 70%;
+}
+
+/*60%宽度*/
+.w60 {
+    width: 60%;
+}
+
+/*50%宽度*/
+.w50 {
+    width: 50%;
+}
+
+/*40%宽度*/
+.w40 {
+    width: 40%;
+}
+
+/*30%宽度*/
+.w30 {
+    width: 30%;
+}
+
+/*20%宽度*/
+.w20 {
+    width: 20%;
+}
+
+/*10%宽度*/
+.w10 {
+    width: 10%;
+}
+
+/*100%高度*/
+.h100 {
+    height: 100%;
+}
+
+/*90%高度*/
+.h90 {
+    height: 90%;
+}
+
+/*80%高度*/
+.h80 {
+    height: 80%;
+}
+
+/*70%高度*/
+.h70 {
+    height: 70%;
+}
+
+/*60%高度*/
+.h60 {
+    height: 60%;
+}
+
+/*50%高度*/
+.h50 {
+    height: 50%;
+}
+
+/*40%高度*/
+.h40 {
+    height: 40%;
+}
+
+/*30%高度*/
+.h30 {
+    height: 30%;
+}
+
+/*20%高度*/
+.h20 {
+    height: 20%;
+}
+
+/*10%高度*/
+.h10 {
+    height: 10%;
+}
+
+.vcenter {
+    vertical-align: middle;
+}
+
+.vbottom {
+    vertical-align: bottom;
+}
+
+.center {
+    align: center;
+}
+
+.right {
+    align: right;
+}
+
+.left {
+    align: left;
+}
+
+.relative {
+    position: relative;
+}
+
+.relative_right {
+    right: 0;
+}
+
+.fc_blue {
+    color: #4C90FE;
+}
+
+.fc_yellow {
+    color: #FEC300;
+}
+
+.fc_orange {
+    color: #ff7856;
+}
+
+.fc_deepBlue {
+    color: #4C6E87;
+}
+
+/*comment block height*/
+.block_height {
+    height: 43;
+}
+
+/** label公共字体样式 **/
+label {
+    font-family: SukhumvitSet-Medium;
+    color: #44515B;
+}
+
+/** text公共样式 **/
+text {
+    font-family: SukhumvitSet-Medium;
+    color: #44515B;
+}
+
+/** input字体公共样式 **/
+input {
+    font-family: SukhumvitSet-Medium;
+    color: #44515B;
+}
+
+/** textarea字体样式 **/
+textarea {
+    font-family: SukhumvitSet-Medium;
+    color: #44515B;
+}
+
+/** button字体样式**/
+button {
+    font-family: SukhumvitSet-Bold;
+    color: #44515B;
+}
+
+.vhidden {
+    visibility: hidden;
+}
+
+.visible{
+	visibility: visible;
+}
+
+/*input错误提示*/
+.errorTipHidden {
+    padding: 12 0 0 0;
+    font-size: 12;
+    width: 100%;
+    color: #FF3737;
+    visibility: hidden;
+}
+
+/*input以展示的错误提示 红色*/
+.errorTipVisibleRedFont {
+    padding: 12 0 0 0;
+    font-size: 12;
+    width: 100%;
+    color: #FF3737;
+    visibility: visible;
+}
+
+/* input以展示的错误提示 蓝色**/
+.errorTipVisibleBlueFont {
+    padding: 12 0 0 0;
+    font-size: 12;
+    width: 100%;
+    color: #44515B;
+    visibility: visible;
+}
+
+.w80 {
+    width: 80%;
+}
+
+.lh {
+    line-height: 6;
+}
+
+.lh2 {
+    line-height: 3;
+}
+
+.line_height7 {
+    line-spacing-android: -7;
+}
+
+.line_height4 {
+    line-height: -3;
+}
+
+.errL {
+    color: #FF3737;
+    margin: 8 0 0 0;
+    font-size: 17;
+    font-family: SukhumvitSet-Medium;
+}
+
+.errL15 {
+    color: #FF3737;
+    font-size: 15;
+    margin: 5 0 0 0;
+    font-family: SukhumvitSet-Medium;
+}
+
+/* 水平分割线 */
+.border_line {
+    border-color: #BECCD7;
+    border-width: 0 0 0.5 0;
+}
+
+/* eKYC流程公共样式**/
+.w33 {
+    width: 33.3%;
+}
+
+.w26 {
+    width: 26%;
+}
+
+.w23 {
+    width: 23%;
+}
+
+.w21 {
+    width: 18%;
+}
+
+.w34 {
+    width: 33%;
+}
+
+.paddingL3 {
+    padding: 0 0 0 8;
+}
+
+.marginR3 {
+    padding: 0 6 0 0;
+}
+
+.marginL3 {
+    margin: 0 0 0 3;
+}
+
+.marginTop6 {
+    margin: 6 0 0 0;
+}
+
+.input_btn {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.w90 {
+    width: 90%;
+}
+
+.marginTop18 {
+    margin: 18 0 0 0;
+}
+
+.paddingB15 {
+    padding: 0 0 10 0;
+}
+
+.height45 {
+    height: 43;
+}
+
+.img_down {
+    width: 12;
+    height: 6;
+    position: relative;
+    top: 20;
+    right: 0;
+}
+
+._bottom_btn {
+    position: absolute;
+    bottom: 0;
+    height: 90;
+}
+
+.noRecordImg {
+    width: 55;
+    height: 55;
+    margin: 30 0 0 0;
+}
+
+.noRecordText {
+    margin: 10 0 0 0;
+}
+
+.link_keyboard {
+    position: absolute;
+    link-keyboard: true;
+}
+
+.top_header {
+    top: 160;
+}
+
+.no_top_header {
+    top: 85;
+}
+
+.top_header2 {
+    top: 90;
+}
