@@ -60,9 +60,37 @@ module.exports = {
       filename:"index.tml",
       title:"首页",
       chunks:['main'],
-      minify:true,
-      inject: true,
-      xhtml: true
+      //部分省略，具体看minify的配置
+      minify: {
+        //是否对大小写敏感，默认false
+        caseSensitive: true,
+
+        //是否简写boolean格式的属性如：disabled="disabled" 简写为disabled  默认false
+        collapseBooleanAttributes: false,
+
+        //是否去除空格，默认false
+        collapseWhitespace: false,
+
+        //标签自闭合
+        keepClosingSlash: true,
+
+        //是否压缩html里的css（使用clean-css进行的压缩） 默认值false；
+        minifyCSS: true,
+
+        //是否压缩html里的js（使用uglify-js进行的压缩）
+        minifyJS: true,
+
+        //Prevents the escaping of the values of attributes
+        preventAttributesEscaping: true,
+
+        //是否移除属性的引号 默认false
+        removeAttributeQuotes: true,
+
+        //使用短的文档类型，默认false
+        useShortDoctype: false
+      },
+      inject: "head",
+      html5: true
     }),
     new extractTextWebpackPlugin({
       filename:"./css/[name]-[hash].css"

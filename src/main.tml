@@ -4,6 +4,7 @@
 	</head>
 	<body>
 	   <vbox>
+	     <!--  注释-->
 		    <hpanel class="head">
 		    	<label value="&lt;input&gt;" class="headTitle" />
 		    	<button value="back" class="topBack" onclick="back()" />
