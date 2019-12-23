@@ -1,11 +1,11 @@
-const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin'); //打包html的插件
 const extractTextWebpackPlugin=require("extract-text-webpack-plugin");
 
 module.exports = {
+  mode: 'development',
   devtool: 'source-map',
   entry: {
-    main: './src/main.js'
+    main: './example/main.js'
   },
   output: {
     filename: './js/[name].js',
@@ -56,7 +56,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template:"./src/main.tml",
+      template:"./example/main.tml",
       filename:"index.tml",
       title:"首页",
       chunks:['main'],
@@ -75,10 +75,10 @@ module.exports = {
         keepClosingSlash: true,
 
         //是否压缩html里的css（使用clean-css进行的压缩） 默认值false；
-        minifyCSS: true,
+        minifyCSS: false,
 
         //是否压缩html里的js（使用uglify-js进行的压缩）
-        minifyJS: true,
+        minifyJS: false,
 
         //Prevents the escaping of the values of attributes
         preventAttributesEscaping: true,
@@ -90,7 +90,7 @@ module.exports = {
         useShortDoctype: false
       },
       inject: "head",
-      html5: true
+      xhtml: true
     }),
     new extractTextWebpackPlugin({
       filename:"./css/[name]-[hash].css"

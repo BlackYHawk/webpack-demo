@@ -1,0 +1,47 @@
+<tml>
+	<head>
+		<script src="label.js"/>
+		<style href="../css/public.css"></style>
+		<style href="label.css"/>
+	</head>
+	<body>	
+	   <vbox>
+		    <hpanel class="head">
+		    	<label value="&lt;label&gt;" class="headTitle"/>
+		    	 <button value="back" class="topBack" onclick="back()" />
+		    </hpanel>
+			<div class="content">
+				 <label value="label" class="title1"/>
+		        <vpanel class="d11">
+				    <label value="label为单行文本不支持换行。"></label>
+		        </vpanel>
+		        
+		        <label value="Font Size" class="title1 l22"/>
+		        <vpanel class="d11">
+				    <label value="TinyBuilder" class="f1"></label>
+				    <label value="TinyBuilder" class="f2"></label>
+		        </vpanel>
+		        
+		        <label value="color" class="title1 l22"/>
+		        <vpanel class="d11">
+				    <label value="TinyBuilder" class="c1"></label>
+				    <label value="TinyBuilder" class="c2"></label>
+		        </vpanel>
+		        
+		        <label value="font-style" class="title1 l22"/>
+		        <vpanel class="d11">
+				    <label value="TinyBuilder" class="s1"></label>
+				    <label value="TinyBuilder" class="s2"></label>
+				    <label value="TinyBuilder" class="s3"></label>
+		        </vpanel>
+		        
+		         <label value="text-decoration" class="title1 l22"/>
+		        <vpanel class="d11">
+				    <label value="TinyBuilder" class="de1"></label>
+				    <label value="TinyBuilder" class="de2"></label>
+				    <label value="TinyBuilder" class="de3"></label>
+		        </vpanel>
+	        </div>
+        </vbox>
+	</body>
+</tml>
