@@ -1,0 +1,8 @@
+<frame>
+    <head>
+        <script src="commonJs/tools.js"/>
+    </head>
+     <navigator id="nav1">
+           <page id="financing" url="login.tml"  hidesStatusBar="false"  style="background-color:#ffffff"/>
+      </navigator>
+</frame>

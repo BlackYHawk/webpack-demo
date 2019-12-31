@@ -1,2 +1,4 @@
-import {utils, request, tools} from 'tools'
-import "label.css"
+import "../css/public.css"
+import "./label.css"
+
+console.log("");

@@ -1,8 +1,6 @@
 <tml>
 	<head>
 		<script src="label.js"/>
-		<style href="../css/public.css"></style>
-		<style href="label.css"/>
 	</head>
 	<body>	
 	   <vbox>

@@ -1,6 +1,6 @@
 <tml>
 	<head>
-	  <script src="main.js"/>
+       <script src="main.js" type="javascript"/>
 	</head>
 	<body>
 	   <vbox>
